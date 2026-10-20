@@ -3,7 +3,7 @@
   "id": "hunger-bar-mod",
   "version": "${version}",
   "name": "Hunger Bar Mod",
-  "description": "A Fabric mod that changes the hunger bar depending on what you eat.",
+  "description": "A client-side Fabric mod that changes the hunger bar colors based on the last food you ate.",
   "authors": [
     "Pot37"
   ],
@@ -12,9 +12,9 @@
     "sources": "https://github.com/Pot37/Hunger-Bar-Mod"
   },
   "license": "MIT",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.pot37.hungerbarmod.HungerBarMod"
     ]
   },

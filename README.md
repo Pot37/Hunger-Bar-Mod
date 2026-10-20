@@ -1,6 +1,12 @@
 # Hunger Bar Mod
 
-This repository was empty, so I created a minimal Fabric mod scaffold that can be built into a JAR.
+This is a client-side Fabric mod for Minecraft 1.21.1 that changes the hunger bar color based on the last food item you ate.
+
+Examples:
+- cooked beef -> red hunger bar
+- apples -> green hunger bar
+- cooked cod -> blue hunger bar
+- raw meat and uncooked food keep the default vanilla bar style
 
 ## Build
 
@@ -8,8 +14,8 @@ This repository was empty, so I created a minimal Fabric mod scaffold that can b
 ./gradlew build
 ```
 
-The compiled JAR will be in `build/libs`.
+The generated JAR will be in `build/libs`.
 
 ## Notes
 
-This is a working Fabric mod template. The hunger-bar logic itself still needs to be implemented according to your mod design.
+This version is designed for client-side behavior only, which means it does not change any server-side game logic.

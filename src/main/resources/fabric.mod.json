@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "hunger-bar-mod",
+  "version": "${version}",
+  "name": "Hunger Bar Mod",
+  "description": "A Fabric mod that changes the hunger bar depending on what you eat.",
+  "authors": [
+    "Pot37"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Pot37/Hunger-Bar-Mod",
+    "sources": "https://github.com/Pot37/Hunger-Bar-Mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pot37.hungerbarmod.HungerBarMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21.1"
+  }
+}
